@@ -1,4 +1,4 @@
-System.register(['./_virtual_cc-B6p_BPXr.js'], (function (exports) {
+System.register(['./s_virtual_cc-B6p_BPXr.js'], (function (exports) {
 	'use strict';
 	return {
 		setters: [function (module) {
