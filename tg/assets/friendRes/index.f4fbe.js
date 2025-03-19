@@ -1,0 +1,26 @@
+System.register("chunks:///_virtual/friendItem.ts",["./rollupPluginModLoBabelHelpers.js","cc","./Enums.ts","./EventManger.ts"],(function(e){var t,n,r,i,a,o,l,u,s,c,f;return{setters:[function(e){t=e.applyDecoratedDescriptor,n=e.inheritsLoose,r=e.initializerDefineProperty,i=e.assertThisInitialized},function(e){a=e.cclegacy,o=e._decorator,l=e.Label,u=e.Node,s=e.Component},function(e){c=e.events},function(e){f=e.default}],execute:function(){var p,v,m,h,d,g,y,b,w;a._RF.push({},"96009ZhZzdCCK3XyPlmrqRl","friendItem",void 0);var z=o.ccclass,B=o.property;e("friendItem",(p=z("friendItem"),v=B(l),m=B(l),h=B(u),p((y=t((g=function(e){function t(){for(var t,n=arguments.length,a=new Array(n),o=0;o<n;o++)a[o]=arguments[o];return t=e.call.apply(e,[this].concat(a))||this,r(t,"userName",y,i(t)),r(t,"wealthValue",b,i(t)),r(t,"giveBtn",w,i(t)),t}n(t,e);var a=t.prototype;return a.onLoad=function(){var e=this;e.giveBtn.on(u.EventType.TOUCH_END,e.onGiveBtn,e)},a.setData=function(e){this.userName.string=e.userName,this.wealthValue.string=e.wealthValue+""},a.onGiveBtn=function(){f.inst.event.emit(c.friendOperate,"")},t}(s)).prototype,"userName",[v],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),b=t(g.prototype,"wealthValue",[m],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),w=t(g.prototype,"giveBtn",[h],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),d=g))||d));a._RF.pop()}}}));
+
+System.register("chunks:///_virtual/friendRes",["./friendItem.ts","./friendScene.ts","./red.ts"],(function(){return{setters:[null,null,null],execute:function(){}}}));
+
+System.register("chunks:///_virtual/friendScene.ts",["./rollupPluginModLoBabelHelpers.js","cc","./Enums.ts","./EventManger.ts","./ResourceManger.ts"],(function(e){var n,t,i,r,o,a,c,u,l,p,f;return{setters:[function(e){n=e.applyDecoratedDescriptor,t=e.inheritsLoose,i=e.initializerDefineProperty,r=e.assertThisInitialized},function(e){o=e.cclegacy,a=e._decorator,c=e.Node,u=e.Component},function(e){l=e.events},function(e){p=e.default},function(e){f=e.default}],execute:function(){var s,d,v,b,B,F,y,g,h,E,m;o._RF.push({},"0c5eamFhDpG7pEhjKu9UGH1","friendScene",void 0);var G=a.ccclass,O=a.property;e("friendScene",(s=G("friendScene"),d=O(c),v=O(c),b=O(c),B=O(c),s((g=n((y=function(e){function n(){for(var n,t=arguments.length,o=new Array(t),a=0;a<t;a++)o[a]=arguments[a];return n=e.call.apply(e,[this].concat(o))||this,i(n,"backBtn",g,r(n)),i(n,"getGiveFriendBtn",h,r(n)),i(n,"inviteFriendBtn",E,r(n)),i(n,"operateNotifier",m,r(n)),n}t(n,e);var o=n.prototype;return o.onLoad=function(){var e=this;e.backBtn.on(c.EventType.TOUCH_END,e.onBackBtn,e),e.getGiveFriendBtn.on(c.EventType.TOUCH_END,e.onGetGiveFriendBtn,e),e.inviteFriendBtn.on(c.EventType.TOUCH_END,e.onInviteFriendBtn,e),p.inst.event.on(l.friendOperate,e.onFriendOperate,e)},o.onFriendOperate=function(){this.operateNotifier.active=!0},o.onGetGiveFriendBtn=function(){this.onFriendOperate()},o.onInviteFriendBtn=function(){this.onFriendOperate()},o.onBackBtn=function(){f.instance.backScene()},o.onEnable=function(){p.inst.event.emit(l.loadResUIHide)},n}(u)).prototype,"backBtn",[d],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),h=n(y.prototype,"getGiveFriendBtn",[v],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),E=n(y.prototype,"inviteFriendBtn",[b],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),m=n(y.prototype,"operateNotifier",[B],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),F=y))||F));o._RF.pop()}}}));
+
+System.register("chunks:///_virtual/red.ts",["./rollupPluginModLoBabelHelpers.js","cc","./dragComp.ts"],(function(t){var n,o,r,e,a,c;return{setters:[function(t){n=t.inheritsLoose},function(t){o=t.cclegacy,r=t._decorator,e=t.Vec3,a=t.Component},function(t){c=t.dragComp}],execute:function(){var s;o._RF.push({},"49053bP/aRP8raE56F28r34","red",void 0);var i=r.ccclass;r.property,t("red",i("red")(s=function(t){function o(){for(var n,o=arguments.length,r=new Array(o),a=0;a<o;a++)r[a]=arguments[a];return(n=t.call.apply(t,[this].concat(r))||this).startPosi=new e,n}n(o,t);var r=o.prototype;return r.onLoad=function(){this.node.getPosition(this.startPosi)},r.onEnable=function(){var t=this;t.node.getComponent(c).setTouchCallFunc(t.dragStart,t.dragMove,t.dragEnd,t)},r.dragStart=function(t){console.log("dragStart",t)},r.dragMove=function(){},r.dragEnd=function(){var t=this;t.unscheduleAllCallbacks(),t.scheduleOnce((function(){t.node.setPosition(t.startPosi)}),.1)},o}(a))||s);o._RF.pop()}}}));
+
+(function(r) {
+  r('virtual:///prerequisite-imports/friendRes', 'chunks:///_virtual/friendRes'); 
+})(function(mid, cid) {
+    System.register(mid, [cid], function (_export, _context) {
+    return {
+        setters: [function(_m) {
+            var _exportObj = {};
+
+            for (var _key in _m) {
+              if (_key !== "default" && _key !== "__esModule") _exportObj[_key] = _m[_key];
+            }
+      
+            _export(_exportObj);
+        }],
+        execute: function () { }
+    };
+    });
+});
