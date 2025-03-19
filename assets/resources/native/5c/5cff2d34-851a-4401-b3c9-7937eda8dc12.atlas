@@ -1,0 +1,48 @@
+
+xiangjiao.png
+size: 644,644
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2-1
+  rotate: true
+  xy: 1, 1
+  size: 495, 561
+  orig: 495, 561
+  offset: 0, 0
+  index: -1
+2-2
+  rotate: true
+  xy: 227, 513
+  size: 130, 141
+  orig: 130, 141
+  offset: 0, 0
+  index: -1
+2-3
+  rotate: false
+  xy: 1, 618
+  size: 69, 25
+  orig: 69, 25
+  offset: 0, 0
+  index: -1
+2-4
+  rotate: true
+  xy: 71, 583
+  size: 60, 71
+  orig: 60, 71
+  offset: 0, 0
+  index: -1
+2-5
+  rotate: true
+  xy: 369, 497
+  size: 146, 153
+  orig: 146, 153
+  offset: 0, 0
+  index: -1
+2-6
+  rotate: false
+  xy: 143, 571
+  size: 83, 72
+  orig: 83, 72
+  offset: 0, 0
+  index: -1

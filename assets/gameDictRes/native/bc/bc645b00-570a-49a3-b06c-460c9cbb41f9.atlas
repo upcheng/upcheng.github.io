@@ -1,0 +1,41 @@
+
+ShengLi.png
+size: 493,997
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 78
+  rotate: false
+  xy: 211, 367
+  size: 265, 303
+  orig: 265, 303
+  offset: 0, 0
+  index: -1
+图层 79
+  rotate: true
+  xy: 211, 671
+  size: 325, 261
+  orig: 325, 261
+  offset: 0, 0
+  index: -1
+图层 84
+  rotate: false
+  xy: 1, 1
+  size: 313, 313
+  orig: 313, 313
+  offset: 0, 0
+  index: -1
+成 功
+  rotate: true
+  xy: 315, 76
+  size: 290, 177
+  orig: 290, 177
+  offset: 0, 0
+  index: -1
+组 27
+  rotate: true
+  xy: 1, 315
+  size: 681, 209
+  orig: 681, 209
+  offset: 0, 0
+  index: -1

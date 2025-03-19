@@ -1,0 +1,34 @@
+
+boshi.png
+size: 746,746
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4-1
+  rotate: false
+  xy: 1, 165
+  size: 577, 580
+  orig: 577, 580
+  offset: 0, 0
+  index: -1
+4-2
+  rotate: false
+  xy: 1, 1
+  size: 211, 163
+  orig: 211, 163
+  offset: 0, 0
+  index: -1
+4-3
+  rotate: false
+  xy: 213, 67
+  size: 194, 97
+  orig: 194, 97
+  offset: 0, 0
+  index: -1
+4-4
+  rotate: false
+  xy: 213, 10
+  size: 31, 56
+  orig: 31, 56
+  offset: 0, 0
+  index: -1

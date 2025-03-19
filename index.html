@@ -34,7 +34,7 @@
   <!--<link rel="apple-touch-icon" href=".png" />-->
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
-  <link rel="stylesheet" type="text/css" href="style.f76d1.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
 
 </head>
 <body>
@@ -44,20 +44,26 @@
       </div>
     </div>
   
+<script src="./vconsole.min.js"></script>
+<script type="text/javascript">
+    // open web debugger console
+    window.VConsole && (window.vConsole = new VConsole());
+</script>
+
 
 <!-- Polyfills bundle. -->
 
-<script src="src/polyfills.bundle.5adbf.js" charset="utf-8"> </script>
+<script src="src/polyfills.bundle.js" charset="utf-8"> </script>
 
 
 <!-- SystemJS support. -->
-<script src="src/system.bundle.543e6.js" charset="utf-8"> </script>
+<script src="src/system.bundle.js" charset="utf-8"> </script>
 
 <!-- Import map -->
-<script src="src/import-map.0f9e2.json" type="systemjs-importmap" charset="utf-8"> </script>
+<script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.c1c38.js').catch(function(err) { console.error(err); })
+    System.import('./index.js').catch(function(err) { console.error(err); })
 </script>
 
   
@@ -75,6 +81,7 @@
 
       // 如果参数from的值是telegram，则加载脚本
       if (fromParam == "telegram") {
+        console.log("telegram add lib");
         addHeadSctipt("./lib/telegramLib.js", () => {});
       }
       //  else {

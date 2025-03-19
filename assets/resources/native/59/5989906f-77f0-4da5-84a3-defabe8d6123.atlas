@@ -1,0 +1,34 @@
+
+loding.png
+size: 579,579
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+功德+1
+  rotate: false
+  xy: 1, 529
+  size: 142, 49
+  orig: 142, 49
+  offset: 0, 0
+  index: -1
+图层 77
+  rotate: false
+  xy: 144, 459
+  size: 146, 119
+  orig: 146, 119
+  offset: 0, 0
+  index: -1
+图层 78
+  rotate: false
+  xy: 291, 446
+  size: 199, 132
+  orig: 199, 132
+  offset: 0, 0
+  index: -1
+组 4
+  rotate: false
+  xy: 1, 1
+  size: 499, 444
+  orig: 499, 445
+  offset: 0, 1
+  index: -1

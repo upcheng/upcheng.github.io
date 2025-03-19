@@ -1,0 +1,20 @@
+
+moyu.png
+size: 840,840
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5-1
+  rotate: false
+  xy: 1, 360
+  size: 578, 479
+  orig: 578, 479
+  offset: 0, 0
+  index: -1
+5-2
+  rotate: true
+  xy: 580, 542
+  size: 297, 259
+  orig: 297, 259
+  offset: 0, 0
+  index: -1

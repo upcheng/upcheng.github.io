@@ -1,0 +1,59 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [
+        "resources"
+    ],
+    "uuids": [
+        "024e0302-0bc6-49ca-af8a-7302f7ebd2bf@f9941",
+        "2593d9d8-9632-4fdc-aef1-89535afa5d7b@f9941",
+        "5bfd01e2-faa4-4dff-9af3-862e11d2a9ee",
+        "ac9f9b6e-a9be-4c7d-80ad-b8c21f6df95a@f9941",
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "f4740ec9-88c1-4972-9549-0f4095687737@f9941",
+        "f7bc7a7e-e1e5-4878-b9bf-b7da69e3b41b",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+    ],
+    "paths": {
+        "f7bc7a7e-e1e5-4878-b9bf-b7da69e3b41b": [
+            "db:/assets/scenes/main",
+            "cc.SceneAsset",
+            1
+        ],
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline",
+            1
+        ],
+        "ba21476f-2866-4f81-9c4d-6e359316e448": [
+            "db:/internal/physics/default-physics-material",
+            "cc.PhysicsMaterial",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/scenes/main.scene": "f7bc7a7e-e1e5-4878-b9bf-b7da69e3b41b"
+    },
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "024e0302-0bc6-49ca-af8a-7302f7ebd2bf@f9941",
+        "0",
+        "2593d9d8-9632-4fdc-aef1-89535afa5d7b@f9941",
+        "0",
+        "5bfd01e2-faa4-4dff-9af3-862e11d2a9ee",
+        "0",
+        "ac9f9b6e-a9be-4c7d-80ad-b8c21f6df95a@f9941",
+        "0",
+        "f4740ec9-88c1-4972-9549-0f4095687737@f9941",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
